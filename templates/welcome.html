@@ -1,0 +1,19 @@
+{% extends 'oscar/layout.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block title %}{% trans 'Welcome' %} | {{ block.super }}{% endblock %}
+
+{% block header %}{% endblock header %}
+
+{% block subheader %}
+  <h2>Free Samples!</h2>
+{% endblock subheader %}
+
+{% block navigation %}{% endblock navigation %}
+
+{% block content %}
+  <p>
+    This is my content :)
+  </p>
+{% endblock %}
