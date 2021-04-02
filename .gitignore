@@ -1,0 +1,7 @@
+**/__pycache__/
+cache/
+collected_static_assets/
+*:Zone.Identifier
+.idea/
+.vscode/
+node_modules/
